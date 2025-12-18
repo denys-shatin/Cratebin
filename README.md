@@ -5,6 +5,8 @@ Self-hosted snippet sharing service with TTL, privacy controls, and secure acces
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
 
+**🌐 Live Demo:** [https://cratebin.biz](https://cratebin.biz)
+
 ## Features
 
 - **Multiple Visibility Levels** - Public, unlisted, and private snippets
