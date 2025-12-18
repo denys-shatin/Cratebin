@@ -23,7 +23,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "80:3000"  # Порт 80 для HTTP
+      - "127.0.0.1:3232:3000"  # Только localhost
     environment:
       - PUBLIC_API_URL=http://backend:8080
       - PUBLIC_APP_URL=https://cratebin.biz

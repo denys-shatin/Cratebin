@@ -98,4 +98,6 @@ class ApiClient {
 	}
 }
 
-export const api = new ApiClient(PUBLIC_API_URL || 'http://localhost:8080');
+// Use relative path for browser requests (goes through nginx proxy)
+// Use PUBLIC_API_URL for server-side requests (SSR)
+export const api = new ApiClient(typeof window !== 'undefined' ? '/api' : (PUBLIC_API_URL || 'http://backend:8080'));
