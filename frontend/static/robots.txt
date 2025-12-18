@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /snippets/
+
+Sitemap: https://cratebin.biz/sitemap.xml
