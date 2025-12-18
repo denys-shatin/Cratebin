@@ -48,12 +48,12 @@ class ApiClient {
 	}
 
 	async getSnippet(id: string, password?: string): Promise<Snippet> {
-		const url = new URL(`${this.baseUrl}/snippets/${id}`);
+		let url = `${this.baseUrl}/snippets/${id}`;
 		if (password) {
-			url.searchParams.set('password', password);
+			url += `?password=${encodeURIComponent(password)}`;
 		}
 
-		const response = await fetch(url.toString());
+		const response = await fetch(url);
 
 		if (!response.ok) {
 			if (response.status === 403) {
@@ -69,12 +69,12 @@ class ApiClient {
 	}
 
 	async getSnippetRaw(id: string, password?: string): Promise<string> {
-		const url = new URL(`${this.baseUrl}/snippets/${id}/raw`);
+		let url = `${this.baseUrl}/snippets/${id}/raw`;
 		if (password) {
-			url.searchParams.set('password', password);
+			url += `?password=${encodeURIComponent(password)}`;
 		}
 
-		const response = await fetch(url.toString());
+		const response = await fetch(url);
 
 		if (!response.ok) {
 			throw new Error('Failed to fetch snippet');
