@@ -38,13 +38,14 @@
 </script>
 
 <svelte:head>
-	<title>Cratebin - Create Snippet</title>
+	<title>Cratebin - Free Online Pastebin & Code Snippet Sharing</title>
+	<meta name="description" content="Share code snippets, logs, and text online for free. Pastebin alternative with password protection, auto-expiration, and raw text mode. No registration required." />
 </svelte:head>
 
 <div class="container">
 	<header>
 		<h1>📦 Cratebin</h1>
-		<p>Share code snippets, logs, and text</p>
+		<p>Free online pastebin for sharing code snippets and text</p>
 	</header>
 
 	<main>
