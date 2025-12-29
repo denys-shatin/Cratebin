@@ -44,8 +44,8 @@
 
 <div class="container">
 	<header>
-		<h1>📦 Cratebin</h1>
-		<p>Free online pastebin for sharing code snippets and text</p>
+		<h1>Cratebin - Free Online Pastebin & Code Sharing</h1>
+		<p>Secure pastebin alternative with password protection, auto-expiration, and self-hosted open source solution. Share code snippets, logs, and text online instantly.</p>
 	</header>
 
 	<main>

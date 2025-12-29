@@ -7,26 +7,30 @@
 		<!-- Primary Meta Tags -->
 		<title>Cratebin - Free Online Pastebin & Code Snippet Sharing</title>
 		<meta name="title" content="Cratebin - Free Online Pastebin & Code Snippet Sharing" />
-		<meta name="description" content="Share code snippets, logs, and text online with Cratebin. Free pastebin alternative with password protection, auto-expiration, and raw text mode. Self-hosted and open source." />
+		<meta name="description" content="Free secure pastebin for code snippets with password protection, auto-expiration, and self-hosted open source. Share code instantly." />
 		<meta name="keywords" content="pastebin, code sharing, snippet sharing, paste code, share text, code snippets, text sharing, online notepad, paste bin, code paste, hastebin alternative, privatebin, snippet manager" />
 		<meta name="author" content="Denys Shatin" />
 		<meta name="robots" content="index, follow" />
 		<link rel="canonical" href="https://cratebin.biz" />
+		<link rel="alternate" hreflang="en" href="https://cratebin.biz" />
+		<link rel="alternate" hreflang="x-default" href="https://cratebin.biz" />
 		
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://cratebin.biz/" />
 		<meta property="og:title" content="Cratebin - Free Online Pastebin & Code Snippet Sharing" />
-		<meta property="og:description" content="Share code snippets, logs, and text online with Cratebin. Free pastebin alternative with password protection and auto-expiration." />
+		<meta property="og:description" content="Free secure pastebin for code snippets with password protection, auto-expiration, and self-hosted open source. Share code instantly." />
 		<meta property="og:image" content="https://cratebin.biz/og-image.png" />
 		<meta property="og:site_name" content="Cratebin" />
 		
 		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://cratebin.biz/" />
-		<meta property="twitter:title" content="Cratebin - Free Online Pastebin & Code Snippet Sharing" />
-		<meta property="twitter:description" content="Share code snippets, logs, and text online with Cratebin. Free pastebin alternative with password protection and auto-expiration." />
-		<meta property="twitter:image" content="https://cratebin.biz/og-image.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@cratebin" />
+		<meta name="twitter:creator" content="@cratebin" />
+		<meta name="twitter:url" content="https://cratebin.biz/" />
+		<meta name="twitter:title" content="Cratebin - Free Online Pastebin & Code Snippet Sharing" />
+		<meta name="twitter:description" content="Free secure pastebin for code snippets with password protection, auto-expiration, and self-hosted open source. Share code instantly." />
+		<meta name="twitter:image" content="https://cratebin.biz/og-image.png" />
 		
 		<!-- Favicon -->
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -59,6 +63,63 @@
 				"Raw text mode",
 				"Public, unlisted, and private snippets",
 				"Self-hosted and open source"
+			]
+		}
+		</script>
+		
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "What is Cratebin?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Cratebin is a free, self-hosted pastebin alternative for sharing code snippets, logs, and text online. It offers password protection, auto-expiration, and raw text mode without requiring registration."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "How do I share a code snippet?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Simply paste your code or text into the editor, choose visibility settings and expiration time, then click Create Snippet. You'll get a shareable link instantly."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "How long do snippets last?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "You can set snippets to expire after 1 hour, 24 hours, 7 days, or never. Expired snippets are automatically deleted from our servers."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Can I delete my snippet?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Yes! When you create a snippet, you receive a delete token. Use this token to delete your snippet at any time before it expires."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Is Cratebin open source?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Yes! Cratebin is fully open source and available on GitHub. You can self-host it on your own server."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Do I need to register?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "No registration required! Cratebin is completely anonymous and free to use. Just paste and share."
+					}
+				}
 			]
 		}
 		</script>
